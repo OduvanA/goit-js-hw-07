@@ -1,0 +1,44 @@
+
+#categories {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #F6F6FE;
+  border-radius: 8px;
+  border-style: none;
+  padding: 16px;
+  max-width: 360px;
+}
+
+ .item > ul {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+
+}
+
+ul > li {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  color: #2E2F42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+}
+
+h2 {
+  color: #2E2F42;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+}

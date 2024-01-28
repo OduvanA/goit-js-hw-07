@@ -1,0 +1,14 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.galery > li {
+  flex-basis: calc((100% - 48px) / 3);
+}
