@@ -11,9 +11,9 @@ function submitHendler(event) {
       email: event.target.elements.email.value.trim(),
       password: event.target.elements.password.value.trim(),
     })
+    form.reset();
   }
   else {
     alert('All form fields must be filled in'); 
   }
-  form.reset();
 }

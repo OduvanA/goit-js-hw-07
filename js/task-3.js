@@ -8,7 +8,8 @@ inputId.addEventListener('input', outputHandler);
 
 function outputHandler(event) {
   const output = event.target.value;
-  output.trim()
-    ? outputId.textContent = output.trim()
+  const trimmedOutput = output.trim();
+  trimmedOutput
+    ? outputId.textContent = trimmedOutput
     : outputId.textContent = 'Anonymous';
 }
